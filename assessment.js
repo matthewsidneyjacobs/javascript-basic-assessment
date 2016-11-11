@@ -187,5 +187,5 @@ var heroes = ['superman', 'batman', 'flash'];
 
 
 		function callerBack(cb, str) {
-			return cb(str);
+			return cb(str + ' back');
 		}
